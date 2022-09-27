@@ -15,7 +15,9 @@ Next.js, TypeScript, Tailwind CSS, ESLint, Prettier, Husky를 설정한 보일�
 - Prettier
 - Husky
 
-## 디렉토리 구조([참고](https://woochanleee.github.io/project-tree-generator/))
+## 디렉토리 구조
+
+[출처](https://woochanleee.github.io/project-tree-generator/)
 
 ```
 📦
@@ -47,6 +49,13 @@ Next.js, TypeScript, Tailwind CSS, ESLint, Prettier, Husky를 설정한 보일�
 
 ## 설치 및 사용 방법
 
-```sh
+```bash
 git clone https://github.com/hyoungqu23/nextjs-boilerplate.git
 ```
+
+## 참고 자료
+
+- [Next.js 공식문서](https://nextjs.org/docs/getting-started#automatic-setup)
+- [Install Tailwind CSS with Next.js](https://tailwindcss.com/docs/guides/nextjs)
+- [husky 로 git hook 하자](https://library.gabia.com/contents/8492/)
+- [Git Hooks](https://git-scm.com/book/ko/v2/Git%EB%A7%9E%EC%B6%A4-Git-Hooks)
