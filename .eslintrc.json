@@ -9,6 +9,7 @@
     "airbnb/hooks",
     "eslint:recommended",
     "plugin:react/recommended",
+    "plugin:@typescript-eslint/recommended",
     "plugin:prettier/recommended",
     "plugin:import/recommended"
   ],
@@ -17,6 +18,7 @@
       "version": "detect"
     }
   },
+  "parser": "@typescript-eslint/parser",
   "parserOptions": {
     "ecmaFeatures": {
       "jsx": true
@@ -24,7 +26,13 @@
     "ecmaVersion": "latest",
     "sourceType": "module"
   },
-  "plugins": ["react", "react-hooks", "prettier", "prefer-arrow"],
+  "plugins": [
+    "react",
+    "@typescript-eslint",
+    "react-hooks",
+    "prettier",
+    "prefer-arrow"
+  ],
   "rules": {
     "prefer-arrow/prefer-arrow-functions": [
       "error",
@@ -37,7 +45,7 @@
     "prettier/prettier": "error",
     "react/jsx-filename-extension": [
       2,
-      { "extensions": [".js", ".jsx", ".svg", "png"] }
+      { "extensions": [".ts", ".tsx", ".svg", "png"] }
     ],
     "react/function-component-definition": [
       2,
@@ -56,8 +64,5 @@
     "import/no-unresolved": "off",
     "import/no-cycle": "off",
     "react/require-default-props": "off"
-  },
-  "globals": {
-    "React": "writable"
   }
 }
